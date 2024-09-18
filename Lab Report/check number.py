@@ -5,10 +5,6 @@ def check_number(num):
     return "Negative"
   else:
     return "Zero"
-
-# Get a number from the user
 number = float(input("Enter a number: "))
-
-# Check the number and print the result
 result = check_number(number)
 print(f"{number} is {result}.")
